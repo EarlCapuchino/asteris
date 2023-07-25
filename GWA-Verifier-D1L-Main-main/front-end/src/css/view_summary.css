@@ -1,0 +1,168 @@
+.view-summary-body{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top:60px;
+}
+
+.view-summary-header span{
+    margin: 0;
+    margin-left: 3%;
+    font-size: 30px;
+    color: #8d1436;
+    font-family: Palatino Linotype,Palatino LT STD;
+}
+
+.view-summary-list{
+    position:fixed;
+    right: 15%;
+    top: 110px;
+}
+
+.view-summary-list li{
+    display:inline-block;
+    margin: 10px 5px;
+    outline:none;
+}
+
+.print-button{
+    cursor: pointer;
+    color: rgb(83, 83, 83);
+    font-size: 23px;
+    background: none;
+    border: none;
+    outline: none;
+    position:fixed;
+    right: 33%;
+    top: 157px;
+}
+
+.print-button:hover{
+    color: black
+}
+
+.view-summary-search{
+    background-color: #00563f;
+    margin: 5px;
+    height: 40px;
+    margin-left: 16.5%;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    width: 67%;
+    padding: 1px;
+}
+
+.view-summary-sicon{
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.view-summary-sicon:hover{
+    fill: gray;
+}
+
+.view-summary-line{
+    
+    text-align: center;
+    width: 67%;
+}
+
+.view-summary-input{
+    height: 25px;
+    width: 96%;
+    margin-left: 5px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-family: Arial, FontAwesome;
+}
+
+.summary-dropdown{
+    background-color: rgb(211, 211, 211);
+    outline:none;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+    font-family: Helvetica; 
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.view-summary-preview{
+    margin-top: 15px;
+    padding-top: 15px;
+    background-color: rgb(206, 206, 206);
+    height: 45%;
+    border-radius: 8px;
+    width: 67%;
+    margin-left: 16.5%;
+}
+
+.table-wrap{
+    overflow-y:scroll;
+    margin-left: 2%;
+    width: 95%;
+    height: 90%;
+    padding-right: 15px;
+}
+
+.table-wrap::-webkit-scrollbar {
+    width: 10px;
+}
+
+.table-wrap::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+.view-summary-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header-row{
+    position: sticky;
+    top: 0;
+}
+
+.view-summary-thead{
+    font-family: Palatino Linotype,Palatino LT STD;
+    position: sticky;
+    top: 0;
+}
+
+
+.view-summary-element{
+    margin-right: 10px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.view-summary-element:hover{
+    background-color: #ebebeb;
+}
+
+.view-summary-cell{
+    word-break: break-all;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 10px solid rgb(206, 206, 206);
+} 
+
+.summary-header{
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    position: sticky;
+    top: 0;
+} 
+
+.summary-tile{
+    text-decoration: none;
+    color: black;
+}
+

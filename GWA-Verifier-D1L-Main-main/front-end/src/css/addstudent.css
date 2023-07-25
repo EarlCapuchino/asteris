@@ -1,0 +1,181 @@
+.body{
+    background-color: white;
+    width: 100%;
+    height:100%;
+    position:fixed;
+    top:60px;    
+}
+
+.title{
+    text-align: left;
+    margin-top: 85px;
+    margin-left: 16.5%;
+    color: #8D1436;
+    font-family: Palatino Linotype,Palatino LT STD;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.title span{
+    color: gray;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+.add-line{
+    text-align: center;
+    width: 67%
+}
+
+#file-acceptor{
+    display:none;
+}
+
+label{
+    color:white;
+    font-size: 22px;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+
+.plus-sign{
+    position:fixed;
+    top: 320px;
+    left: 34%;
+    font-size: 60px;
+    color: white;
+}
+.file-accept{
+    text-align: center;
+    padding:200px 7% 120px 7%;
+    border-radius: 10px;
+    background-color: rgb(212, 212, 212);
+    position:relative;
+    top: 210px;
+    left: 20%;
+    margin-right:10px;
+}
+
+.submit-button{
+    border:none;
+    outline:none;
+    width: 27%;
+    height: 35px;
+    position:absolute;
+    top:465px;
+    left:53%;
+    font-size: 15px;
+    background-color: #00563F;
+    border-radius: 10px;
+    color:#fcfff6;
+    font-weight: bold;
+    padding:4px;
+    cursor:pointer;
+}
+
+.submit-disabled-button{
+    border:none;
+    outline:none;
+    width: 27%;
+    height: 35px;
+    position:absolute;
+    top:465px;
+    left:53%;
+    font-size: 15px;
+    background-color: gray;
+    border-radius: 10px;
+    color:#fcfff6;
+    font-weight: bold;
+    padding:4px;
+}
+
+.submit-button:hover{
+    opacity:0.8
+}
+
+.chosen-files{
+    text-align: left;
+    position:relative;
+    top:-15px;
+    left:53%;
+    padding:15px;
+    padding-top:3px;
+    overflow-y: auto;
+    background: rgb(212, 212, 212);
+    width: 25%;
+    height:280px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.chosen-files::-webkit-scrollbar {
+    width: 12px;
+}
+.chosen-files::-webkit-scrollbar-thumb {
+    background-color: #9b9b9b;
+    border-radius: 8px;
+    background-clip: padding-box;
+}
+
+.chosen-files::-webkit-scrollbar-thumb:hover{
+    background-color: #8b8b8b;
+}
+
+
+@media screen and (min-width:  1920px) {
+
+    .file-accept{
+        padding:270px 7% 120px 7%;
+        border-radius: 10px;
+        top: 282.5px;
+        left: 20%;
+        margin-right:10px;
+    }
+
+    .title{
+        margin-top: 106.25px;
+        margin-left: 16.5%;
+        font-size: 37.5px;
+        margin-bottom: 12.5px;
+    }
+    
+    .title span{
+        font-size: 25px;
+    }
+
+    label{
+        font-size: 27.5px;
+    }
+
+    .plus-sign{
+        top: 410px;
+        font-size: 70px;
+    }
+  
+    .submit-button{
+        width: 27%;
+        height: 43.75 px;
+        top:575px;
+        left:53%;
+        font-size: 18.75px;
+        margin-top: 10px;
+        padding:10px;
+    }
+
+    .submit-disabled-button{
+        width: 27%;
+        height: 43.75 px;
+        top:575px;
+        left:53%;
+        font-size: 18.75px;
+        margin-top: 10px;
+        padding:10px;
+    }
+    
+    .chosen-files{
+        top:-18.5px;
+        left:53%;
+        padding:18.5px;
+        padding-top:3.75px;
+        height:350px;
+    }
+  }

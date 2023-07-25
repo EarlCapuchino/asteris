@@ -1,0 +1,499 @@
+.details-body{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top:60px;
+    bottom: 50px;
+    overflow-y:scroll;
+    padding-bottom: 50px;
+    
+}
+
+.top-header{
+    position:sticky;
+    top:0px;
+    padding-top:0.5px ;
+    background-color: white;
+    z-index: 2;
+}
+
+.back-icon{
+    position: absolute;
+    left: 16%;
+    margin-top: 66px;
+    cursor: pointer;
+    color: gray;
+}
+
+.back-icon:hover{
+    color: rgb(80, 80, 80);
+}
+
+
+.student-name{
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 19%;
+    color: #8D1436;
+    font-family: Palatino Linotype;
+    font-size: 30px;
+    margin-bottom:0px;
+}
+
+.student-edit-name-container{
+    text-align: left;
+    margin-left: 19%;
+    margin-top: 60px;
+    font-size: 14px;
+    margin-bottom:0px;
+    padding: 14px;
+}
+.student-edit-name{
+    width: 12%;
+    height: 12%;
+    margin-right: 5px;
+    font-family: Palatino Linotype;
+}
+
+.student-info-left{
+    margin-top: 15px;
+    font-family: Helvetica;
+    margin-left: 3%;
+    width: 50%;
+    float:left;
+}
+
+.student-info-edit-left{
+    margin-top: 1px;
+    font-family: Helvetica;
+    margin-left: 3%;
+    width: 50%;
+    float:left;
+}
+
+.student-info-edit-left input{
+    width: 45%;
+    height: 5%;
+    margin-bottom: 3%;
+    font-family: Helvetica;
+    outline:none;
+    padding: 4px;
+    border: 1px solid gray
+}
+.edit-top-cell{
+    margin-left: 30px;
+    border: 1px solid gray
+}
+
+.info-edit-cell{
+    margin-left: 65px;
+    border: 1px solid gray
+}
+
+.student-info-right{
+    margin-top: 15px;
+    font-family: Helvetica;
+    width: 40%;
+    float:left;
+    margin-right: 3%;
+}
+
+.info-l{
+    margin-top: -5px;
+    width: 40%;
+    font-size: 15px;
+    background-color: white;
+    padding: 5px 10px;
+    float:right;
+    margin-right: 15%;
+}
+.info-r{
+    margin-top: -5px;
+    width: 35%;
+    font-size: 15px;
+    background-color: white;
+    padding: 5px 10px;
+    float:right;
+    margin-right: 15%;
+}
+
+
+.student-line{
+    text-align: center;
+    width: 67%
+}
+
+.icons{
+    float:right;
+    margin-top: 70px;
+    margin-right: 17%
+}
+
+.icon{
+    cursor: pointer;
+    color: rgb(83, 83, 83);
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.icon:hover{
+    color: black;
+}
+
+.student-record{
+    width:64%;
+    margin-left: 16.5%;
+    background-color: rgb(223, 223, 223);
+    margin-top: 15px;
+    padding: 20px;
+    bottom: 50px;
+}
+
+.record-head{
+    font-size: 17px
+}
+.record{
+    background-color: white;
+    padding: 20px;
+}
+
+.record-table{
+    border-collapse:collapse;
+    width: 100%;
+}
+
+.record-line{
+    border: 1px solid white;
+    margin-top: 120px;
+    margin-bottom: 0px;
+    z-index:1;
+}
+.term-summary{
+    text-align: center;
+    background-color: rgba(206, 206, 206, 0.8);
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.term-summary span{
+    color: gray;
+}
+
+.edit-cell{
+    width: 90%;
+    outline:none;
+    padding: 8px;
+    border: 1px solid gray
+}
+
+.bottom-space{
+    width: 100%;
+    height: 30%;
+    bottom:0px;
+}
+
+.edit-btns{
+    display: inline-block;
+    width: 80%;
+    margin-left: 18%;
+}
+
+.submit-edit-btn{
+    border:none;
+    outline:none; 
+    font-size: 15px;
+    background-color: #00563F;
+    color:#fcfff6;
+    font-weight: bold;
+    margin-top: 0px;
+    border-radius: 5px;
+    margin-left: 53%;
+    width: 12%;
+    cursor:pointer;
+    height: 30px;
+    padding:2px;
+}
+.cancel-edit-btn{
+    border-radius: 5px;
+    margin-top: 2%;
+    width: 12%;
+    cursor:pointer;
+    padding:2px;
+    border:none;
+    outline:none;
+    background-color: rgb(128, 128, 128);
+    color: white;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: bold;
+    height: 30px;
+}
+
+.cancel-popup-box{
+    position: fixed;
+    top: 40%;
+    left: 37%;
+    width: 24%;
+    background-color:white;
+    box-shadow: 0px 0px 2px 2px #888888;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    padding-bottom:25px;
+    
+}
+
+.cancel-text{
+    margin-top: 10px;
+}
+
+.cance-edit-buttons{
+    text-align: center;
+}
+.yes-btn{
+    cursor: pointer;
+    background-color: #8D1436;
+    color: white;
+    padding: 5px 25px;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+}
+
+.no-btn{
+    cursor: pointer;
+    background-color:gray;
+    color: white;
+    padding: 5px 29px;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    margin-right: 10%;
+    
+}
+
+.confirm-btn:hover{
+    opacity:0.8;
+}
+
+.cancel-btn:hover{
+    opacity:0.8;
+}
+
+.warning-popup-box{
+    position: fixed;
+    top: 165px;
+    left:78%;
+    width: 18%;
+    max-height: 50%;
+    background-color:white;
+    box-shadow: 0px 0px 1px 1px #888888;
+    border-radius: 5px;
+    text-align: left;
+    padding: 15px;
+    overflow-y: scroll;
+    z-index:4;
+}
+.warning-popup-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+.details-body::-webkit-scrollbar {
+    width: 12px;
+    margin-top: 50px;
+}
+
+.details-body::-webkit-scrollbar-track {
+    margin-bottom: 150px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bdbdbd;
+    border-radius: 8px;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #aaaaaa;
+}
+
+.warning-header{
+    font-family: Helvetica;
+    margin: 0px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.warnings-body{
+    align-items: center;
+    font-family: Helvetica;
+}
+
+.warning{
+    margin: 10px 0px 10px 0px;
+    border: 0.5px solid gray;
+    padding: 12px;
+    padding-bottom: 28px;
+    background-color: rgba(141, 20, 54, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.warning:hover{
+    background-color: rgba(141, 20, 54, 0.3);
+}
+
+.warning h5{
+    font-size: 13px;
+    margin: 0px;
+}
+.warning p{
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: small;
+    color:#646464;
+}
+.warning span{
+    float: right;
+    font-size: 13px;
+    margin: 0px;
+}
+
+.warning-badge {
+    background-color: #fa3e3e;
+    border-radius: 2px;
+    color: white;
+   
+    padding: 1px 3px;
+    font-size: 10px;
+    
+    position: absolute; /* Position the badge within the relatively positioned button */
+    top: 65px;
+    right: 16.5%;
+  }
+
+.deleted-watermark{
+    position:fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(141, 20, 54, 0.4);
+    font-weight: 600;
+    font-size: 300%;
+}
+
+@media screen and (min-width: 1920px) {
+
+    .top-header{
+        position:sticky;
+        top:0px;
+        padding-top:0.5px ;
+        background-color: white;
+    }
+
+    .warning-popup-box{
+        position: fixed;
+        top: 225px;
+    }
+
+    .record-line{
+        border: 1px solid white;
+        margin-top: 150px;
+        margin-bottom: 0px;
+    }
+
+    .icons{
+        float:right;
+        margin-top: 130px;
+        margin-right: 17%;
+        transform: scale(125%)
+    }
+    
+    
+    .warning-badge {
+        font-size: 12.5px;
+        top: -5px;
+        right: -15px;
+    }
+    
+    .back-icon{
+        margin-top: 115px;
+        height: 125%;
+    }
+
+    .student-record{
+        width: 65%;
+        font-size: 20px;
+        bottom: 50px; 
+    }
+
+    .edit-btns{
+        width: 70%;
+        margin-left: 28.5%;
+        margin-bottom: 1%;
+    }
+
+    .submit-edit-btn{
+        font-size: 16px;
+        margin-left: 42%;
+        width: 11%;
+        padding:2px;
+    }
+
+    .student-name{
+        font-size: 40px;
+        margin-top:100px;
+    }
+
+    .record-head{
+        font-size: 21.25px
+    }
+
+    .term-summary{
+        font-size: 18.75px;
+    }
+
+    .info-l{
+        font-size: 18.75px
+    }
+
+    .edit-top-cell{
+        font-size: 18.75px;
+    }
+
+    .info-edit-cell{
+        font-size: 18.75px;
+    }
+    
+    .info-r{
+        font-size: 18.75px;
+    }
+
+    .student-edit-name{
+        font-size: 18.75px;
+        margin-top: 40px;
+    }
+
+    .submit-edit-btn{
+        font-size: 17px;
+        height: 37.5px;
+    }
+    .cancel-edit-btn{
+        font-size: 17px;
+        height: 37.5px;
+    }
+
+    .edit-cell{
+        width: 90%;
+        outline:none;
+        padding: 10px;
+        border: 1.25px solid gray
+    }
+
+    .student-line{
+        width: 67%
+    }
+  }

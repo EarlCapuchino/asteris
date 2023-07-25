@@ -1,0 +1,161 @@
+.header-main {
+    background-color: #8D1436;
+    color: white;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    position:fixed;
+    top:0px;
+}
+
+.asteris-logo{
+    width: 150px;
+}
+
+.green-shape{
+    background-color: #00563F;
+    position:fixed;
+    left:0px;
+    width:20px;
+    height:60px;
+}
+
+.yellow-shape{
+    background-color: #DE9720;
+    position:fixed;
+    left:20px;
+    width:20px;
+    height:60px;
+}
+
+.header-name{
+    margin:7px;
+    margin-left: 50px;
+    cursor: pointer;
+    width: 130px;;
+}
+.header-right{
+    position:fixed;
+    right:20px;
+    top:15px;
+}
+
+.header-user{
+    float:left;
+    margin-right:15px;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.header-dp{
+    border-radius: 50px;
+    width: 35px;
+    object-fit: cover;
+    height:35px;
+}
+
+.header-caret{
+    padding-left: 5px;
+    margin-right:30px;
+    transition: filter 300ms;
+    fill: white;
+}
+
+.header-caret:hover{
+    fill: gray;
+    cursor: pointer;
+}
+
+.header-dropdown{
+    position: absolute;
+    width: 120px;
+    top: 40px;
+    right:15px;
+    background-color: white;
+    box-shadow: 2px 2px 2px #888888;
+    border-radius:15px;
+    text-align: center;
+}
+
+.header-dropitem{
+    font-size: 14px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: background 100ms;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+
+}
+
+.header-dropitem:hover{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:  1920px) {
+    .header-main {
+        height: 75px;
+    }
+    
+    .asteris-logo{
+        margin-top: 4px;
+        width: 187.5px;
+    }
+    
+    .green-shape{
+        width:25px;
+        height:75px;
+    }
+    
+    .yellow-shape{
+        width:25px;
+        height:75px;
+    }
+    
+    .header-right{
+        position:fixed;
+        right:25px;
+        top:18.75px;
+    }
+    
+    .header-user{
+        margin-right:18.75px;
+        font-size: 23px;
+    }
+    
+    .header-dp{
+        width: 38px;
+        border-radius: 50px;
+        object-fit: cover;
+        height:38px;
+    }
+    
+    .header-caret{
+        padding-left: 6.25px;
+        margin-right: 37.5px;
+    }  
+    
+    .header-dropdown{
+        width: 150px;
+        top: 50px;
+        /*right:18.75px;
+        border-radius:18.75px; */
+        transform: scale(105%);
+    }
+    
+    .header-dropitem{
+        font-size: 18px;
+        height: 43.25px;
+    }
+    
+    .header-dropitem:hover{
+        background-color: #f1f1f1;
+        border-radius: 12.5px;
+    }
+}

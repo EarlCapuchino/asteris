@@ -1,0 +1,241 @@
+.view-student-body{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top:60px;
+}
+
+.view-student-list{
+    position:fixed;
+    right: 15%;
+    top: 113px;
+}
+
+.view-student-list li{
+    display: inline-block;
+    margin: 0 5px;
+    outline:none;
+}
+
+.view-student-dropdown{
+    background-color: rgb(211, 211, 211);
+    outline:none;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+option{
+    background-color: white;
+}
+
+.student-details{
+    text-decoration: none;
+    color:black;
+    background-color: whitesmoke;
+}
+
+.view-student-search{
+    background-color: #00563f;
+    margin: 5px;
+    height: 40px;
+    margin-left: 16.5%;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    width: 67%;
+    padding: 1px;
+}
+
+.student-search-icon{
+    margin: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.student-search-icon:hover{
+    fill: #DE9720;
+}
+
+.view-student-input{
+    height: 25px;
+    width: 96%;
+    margin-left: 5px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-family: Arial, FontAwesome;
+    font-size: 14px;
+}
+
+.view-student-preview{
+    margin-top: 15px;
+    padding-top: 15px;
+    background-color: rgb(206, 206, 206);
+    height: 45%;
+    border-radius: 8px;
+    width: 67%;
+    margin-left: 16.5%;
+    
+}
+
+.student-table-wrap{
+    overflow-y:scroll;
+    margin-left: 2%;
+    width: 95%;
+    height: 90%;
+    padding-right: 15px;
+}
+
+.student-table-wrap::-webkit-scrollbar {
+    width: 10px;
+}
+
+.student-table-wrap::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+.view-student-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.view-student-thead{
+    font-family: Palatino Linotype,Palatino LT STD;
+    position: sticky;
+    top: 0;
+}
+    
+.header-row{
+    position: sticky;
+    top: 0;
+}
+
+.student-header{
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    position: sticky;
+    top: 0;
+    font-size: 15px;
+}
+
+.student-header-warning{
+    background-color: rgb(206, 206, 206);
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    position: sticky;
+    top: 0;
+}
+
+.view-student-element{
+    margin-right: 10px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.view-student-element:hover{
+    background-color: #ebebeb;
+}
+
+.student-cell{
+    word-break: normal;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 10px solid rgb(206, 206, 206);
+    font-size: 15px;
+} 
+
+.student-warning-badge{
+    color: red;
+    float: left;
+    margin-top: 2px;
+    margin-left: 7px;
+    margin-right: -130px;
+}
+
+.student-warning-badge .badge-text{
+    visibility: hidden;
+    width: 150px;
+    background-color: rgb(197, 197, 197);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 4px 5px;
+    font-size: 11px;
+    border-radius: 6px;
+    margin-left: 5px;
+    font-style: italic;
+    font-weight: 500;
+    /* opacity: 0.4; */
+}
+
+.student-warning-badge:hover .badge-text{
+    visibility: visible;
+    /* opacity: 1; */
+}
+
+.view-student-delete-icon{
+    color: black;
+}
+
+.view-student-delete-icon:hover{
+    fill: gray;
+}
+
+.empty-students{
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.empty-students button{
+    background-color: white;
+    border:1px solid gray;
+    outline:none;
+    padding: 10px 15px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.empty-students button:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+.checkbox-container{
+    display: inline;
+    background-color: rgb(206, 206, 206);
+    
+}
+.general-checkbox{
+    background-color: rgb(206, 206, 206);
+    cursor: pointer;
+    
+}
+
+.delete-many-icon{
+
+    background-color: rgb(206, 206, 206);
+    cursor:pointer;
+
+}
+
+.student-checkbox{
+    cursor:pointer;
+}
+
+@media screen and (min-width: 1920px) {
+    .view-student-dropdown{
+        margin-top: 40px;
+    }
+
+    .empty-students{
+        transform: scale(110%);
+    }
+    
+}
+

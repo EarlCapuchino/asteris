@@ -1,0 +1,204 @@
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #800D0D;
+    display:flex;
+    position:fixed;
+    top:0;
+    text-align: left;
+}
+
+body{
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)) ,url("../images/uplb_bg.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+#uplb-logo{
+    height: 75%;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-top: 7px;
+    float:left;
+}
+
+.text-header{
+    line-height: 0%;
+    text-align: left;
+    color: #fcfff6;
+}
+.univ-name{
+    margin-top: 6%;
+    font-family: Palatino Linotype,Palatino LT STD ;
+    font-size: 20px;
+}
+
+.college-name{
+    font-family: "Helvetica";
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.asteris-logo-login{
+    width: 140px;
+    position: fixed;
+    right: 5%
+}
+
+.login-form{
+    text-align: center;
+    font-family: 'Segoe UI';
+    background-color: #ffffff;
+    height: 350px;
+    width: 20%;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form h2{
+    margin-top:10%;
+}
+
+
+.form-field{
+    padding: 7px;
+    padding-left: 15px;
+    width: 70%;
+    height: 7%;
+    background-color: #F3F3F3;
+    outline: none;
+    border:none;
+    font-family: 'Helvetica', FontAwesome;
+    margin-top: 8%;
+}
+
+.submit-btn{
+    border:none;
+    outline:none;
+    width: 40%;
+    height: 35px;
+    margin-top: 12%;
+    font-size: 15px;
+    background-color: #00563F;
+    border-radius: 10px;
+    color:#fcfff6;
+    font-weight: bold;
+    padding:4px;
+    cursor: pointer;
+}
+
+.eyeLogin{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.forgot-password{
+    font-size: 12px;
+    text-decoration: underline;
+    color:  gray;
+}
+
+.forgot-password-cont{
+    margin-top: 25px;
+}
+
+
+@media screen and (min-width:  1920px) {
+    .header{
+        width: 100%;
+        height: 87.5px;
+        background-color: #800D0D;
+        display:flex;
+        position:fixed;
+        top:0;
+        text-align: left;
+    }
+
+    .univ-name{
+        font-size: 25px;
+    }
+    
+    .college-name{
+        font-size: 17.5px;
+    }
+    
+    /* .app-name{
+        font-size: 25px;
+    } */
+
+    .asteris-logo-login{
+        /* width: 180px; */
+        transform: scale(125%);
+        padding-top: 7px;
+    }
+
+
+    #uplb-logo{
+        height: 75%;
+        margin-left: 3%;
+        margin-right: 2%;
+        margin-top: 7px;
+        float:left;
+    }
+
+    .login-form{
+        text-align: center;
+        font-family: 'Segoe UI';
+        background-color: #ffffff;
+        height: 437.5px;
+        width: 20%;
+        border-radius: 18.75px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+
+    .login-form h2{
+        transform: scale(110%)
+    }
+
+    .login-form input{
+        font-size: 16px;
+    }
+
+    .form-field{
+        padding: 10px;
+        padding-left: 15px;
+        width: 70%;
+        height: 7.5%;
+        background-color: #F3F3F3;
+        outline: none;
+        border: none;
+        font-family: 'Helvetica', FontAwesome;
+        margin-top: 8%;
+    }
+
+    .submit-btn{
+        transform:scale(125%);
+        width: 32%;
+    }
+
+    .eyeLogin{
+        position: absolute;
+        margin-top: 11.5%;
+        margin-left: -30px;
+        height: 40px;
+    }
+
+    .forgot-password{
+        font-size: 17px;
+        transform: scale(130%);
+        padding-top: 7px;
+    }
+
+    .forgot-password-cont{
+        margin-top: 35px;
+    }
+} 
